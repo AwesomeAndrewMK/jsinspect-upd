@@ -1,6 +1,6 @@
 {
-  "name": "jsinspect",
-  "version": "0.12.7",
+  "name": "jsinspect-upd",
+  "version": "0.13.0",
   "description": "Detect structural similarities in your code",
   "keywords": [
     "inspect",
@@ -13,13 +13,13 @@
   ],
   "author": "Daniel St. Jules <danielst.jules@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/danielstjules/jsinspect",
+  "homepage": "https://github.com/AwesomeAndrewMK/jsinspect-upd",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielstjules/jsinspect.git"
+    "url": "https://github.com/AwesomeAndrewMK/jsinspect-upd.git"
   },
   "dependencies": {
-    "babylon": "6.16.1",
+    "@babel/parser": "^7.0.0-beta.49",
     "chalk": "^2.1.0",
     "commander": "^2.11.0",
     "filepaths": "0.3.0",
@@ -31,7 +31,7 @@
     "concat-stream": "^1.5.0",
     "dirmap": "^0.0.2",
     "expect.js": "^0.3.1",
-    "mocha": "^3.5.0"
+    "mocha": "^5.2.0"
   },
   "bin": {
     "jsinspect": "./bin/jsinspect"

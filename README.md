@@ -1,5 +1,7 @@
 ![jsinspect](http://danielstjules.com/github/jsinspect-logo.png)
 
+
+## !! This version of jsinspect is a fork of the original library, which includes an upgrade to the babel 7th version.
 Detect copy-pasted and structurally similar JavaScript code. Requires Node.js
 6.0+, and supports ES6, JSX as well as Flow. Note: the project has been mostly
 rewritten for the 0.10 release and saw several breaking changes.
